@@ -30,7 +30,7 @@ public class ApiTests {
         HttpResponse<String> response =
                 sendRequest("https://fakestoreapi.com/products");
 
-        assertEquals(403, response.statusCode()); //testing if Git get 403
+        assertEquals(200, response.statusCode());
     }
 
 
